@@ -1,0 +1,45 @@
+.maincss3{
+    text-align: center;
+    // background-color: brown;
+    
+    padding-top: 15.5%;
+    padding-bottom: 15.5%;
+    padding-right: 11.5%;
+    padding-left: 11.5%;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+    .imgDesktop{
+        display: none;
+    }
+    .texcontent2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        h1{
+            color: $secondary-color;
+            padding: 1%;
+            font-size: $h1-medium;
+        }
+        p{
+            color: $p-color;
+            margin-top: 2vh;
+            font-size: $p-font-size;
+            span{
+                display: none;
+            }
+            
+        }
+        h4{
+            cursor: pointer;
+            margin-top: 2vh;
+            color: $primary-color;
+            font-size: $p-font-size;
+        }
+        h4:hover{
+            color: pink;
+        }
+    }
+}

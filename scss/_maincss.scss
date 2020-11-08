@@ -1,0 +1,171 @@
+.maincss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 157, 0.363) 25.5%, #FFFFFF 70.92%);
+    
+    
+    .navbar{
+        margin-top: 3vh;
+        width: 100%;
+        min-height: 107px;
+        height: 100%;
+        // border: 1px solid black;
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        .logo{
+            max-width: 196px;
+            width: 100%;
+            max-height: 76px;
+            height: 100%;
+            // border: 1px solid black;
+            margin-left: 24px;
+           
+            img{
+                // line-height: 76px;
+                padding: 10px;
+                max-width: 186px;
+                width: 100%;
+                max-height: 58px;
+                height: 100%;
+            }
+        }
+        .menu{
+            display: none;
+            
+        }
+        .menuframe{
+            max-width: 196px;
+            width: 100%;
+            min-height: 52px;
+            height: 100%;
+            // border: 1px solid black;
+            margin-left: 10%;
+            margin-right: 4%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .button{
+                cursor: pointer;
+                max-width: 140px;
+                width: 100%;
+                min-height: 52px;
+                height: 100%;
+                border: solid $primary-color 1px;
+                color: $primary-color;
+                border-radius: 85px;
+                text-align: center;
+                line-height: 52px;
+                font-size: $button-font-size;
+                transition: .3s linear;
+            }
+            .button:hover{
+                background-color: $primary-color;
+                color: $white;
+            }
+            .burger{
+                margin-left: 10%;
+            }
+        }
+
+    }
+    .textarea{
+        margin-top: 5vh;
+        width: 90%;
+        padding: 5%;
+        max-height: 506px;
+        height: 100%;
+        // border: solid black 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        
+        .headline{
+            max-width: 80%;
+            text-align: center;
+            padding: 2%;
+            color: $secondary-color;
+            // border: solid black 1px;
+            h1{
+                font-size: $h1-font-size;
+                font-weight: 900;
+
+            }
+        }
+        .subHeading{
+            margin-top: 20px;
+            max-width: 70%;
+            padding: 2%;
+            text-align: center;
+            // border: solid black 1px;
+            color: $p-color;
+            p{
+                font-size: $p-font-size;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+    .buttons{
+        max-width: calc(250px + 3%);
+        margin: 5vh auto;
+        width: 100%;
+        // border: solid black 1px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left:  3%;
+        padding-right:  3%;
+        font-size: $button-font-size;
+
+        .button1,.button2{
+            cursor: pointer;
+            max-width: 192px;
+            min-height: 52px;
+            max-height: 52px;
+            width: 100%;
+            border-radius: 85px;
+            background-color: $primary-color;
+            color: $primary-color;
+            border: solid 1px $primary-color;
+            background-color: $white;
+            text-align: center;
+            line-height: 52px;
+            box-sizing: border-box;
+            transition: .3s ease all;
+        }
+        .button1{
+            margin-right: 5%;
+            background-color: $primary-color;
+            color: $white;
+        }
+        .button1:hover{
+            background-color: $white;
+            color: $primary-color;
+            border: 1px solid $primary-color;
+        }
+        .button2:hover{
+            background-color: $primary-color;
+            color: $white;
+        }
+    }
+    .dashboard{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .dashpic{
+            width: 100%;
+        }
+    }
+    .dashLargePic{
+        display: none;
+    }
+    
+}

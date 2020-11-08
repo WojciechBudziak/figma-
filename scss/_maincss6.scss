@@ -1,0 +1,76 @@
+.maincss6{
+    padding-top: 13.74%;
+    padding-left: 10.27%;
+    padding-right: 10.27%;
+    padding-bottom: 6.8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    h1{
+        color: $secondary-color;
+        font-size: $h1-medium;
+    }
+    img{
+        margin-top: 6vh;
+        padding: 10%;
+        margin: 0 auto;
+    }
+    p{
+        margin-top: 6vh;
+        margin: 1%;
+        color: $p-color;
+        font-size: $p-font-size;
+        span{
+            display: none;
+        }
+    }
+    .client{
+        margin-top: 6vh;
+        max-width: 190px;
+        width: 100%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img{
+            padding: 0;
+        }
+        .avatartext{
+            max-width: 127px;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span{
+                padding-left: 10%;
+                padding-right: 1%;
+                text-align: left;
+                font-size: 1em;
+            }
+            span:nth-of-type(1){
+                color: $secondary-color;
+            }
+            span:nth-of-type(2){
+                color: $p-color;
+            }
+        }
+    }
+    .buttoncss6{
+        width: 78%;
+        height: 52px;
+        background-color: $primary-color;
+        font-size: $button-font-size;
+        border-radius: 85px;
+        margin: 0 auto;
+        margin-top: 6vh;
+        color: $white;
+        line-height: 52px;
+    }
+     
+}

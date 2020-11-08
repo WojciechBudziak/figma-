@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    // font-family: 'lato';
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+    h1,h2{
+        font-weight: 300;
+    }
+  
+}
+@import 'variables';
+@import 'maincss';
+@import 'maincss2';
+@import 'maincss3';
+@import 'maincss4';
+@import 'maincss5';
+@import 'maincss6';
+@import 'maincss7';
+@import 'maincss8';
+@import 'maincss9';
+@import 'xxxs';
+@import 'sm768';
+@import 'md992';
+@import 'lg1200';

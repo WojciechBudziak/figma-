@@ -1,0 +1,36 @@
+.maincss4{
+  padding-top: 13vh;
+  padding-right: 11.5%;
+  padding-left: 11.5%;
+  padding-bottom: 13vh;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+      width: 100%;
+  }
+  .imgDesktop2{
+      display: none;
+  }
+  h1{
+      margin: 0 auto;
+      max-width: 199px;
+      width: 100%;
+      color: $secondary-color;
+      font-size: $h1-medium;
+
+  }
+  p{
+      margin: 0 auto;
+      width: 83%;
+      margin-top: 2.5vh;
+      color: $p-color;
+      font-size: $p-font-size;
+  }
+  p:nth-of-type(2){
+      color: $primary-color;
+  }
+}

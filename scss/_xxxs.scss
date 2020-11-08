@@ -1,0 +1,164 @@
+@media (min-width: 370px){
+    .maincss{
+        .navbar{
+            .menuframe{
+                .button{
+                    font-size: $button-xxxl-fz;
+                }
+            }
+        }
+        .textarea{
+            .headline{
+                h1{
+                    font-size: $h1-xxxl-fz;
+                    // font-weight: 5000;
+                }
+            }
+            .subHeading{
+                p{
+                    font-size: $p-xxxl-fz;
+                }
+            }
+        }
+        .buttons{
+            max-width: calc(300px + 3%);
+            font-size: $button-xxxl-fz;
+        }
+    }
+    .maincss2{
+        .content{
+            .textcontent{
+                h1{
+                    font-size: $h1-xxxl-fz;
+                }
+                h2{
+                    font-size: $h1-xxxl-medium;
+                }
+                p{
+                    font-size: $p-xxxl-fz;
+                }
+            }
+            .buttons2{
+                font-size: $button-xxxl-fz;
+            }
+        }
+    }
+    .maincss3{
+        .texcontent2{
+            h1{
+                font-size: $h1-xxxl-medium;
+            }
+            p{
+                font-size: $p-xxxl-fz;
+            }
+            h4{
+                font-size: $p-xxxl-fz;
+            }
+        }
+    }
+    .maincss4{
+        h1{
+            font-size: $h1-xxxl-medium;
+        }
+        p{
+            font-size: $p-xxxl-fz;
+        }
+        p:nth-of-type(2){
+            font-size: $p-xxxl-fz;
+        }
+    }
+    .maincss5{
+        .text5{
+            h1{
+                font-size: $h1-xxxl-fz;
+            }
+            p{
+                font-size: $p-xxxl-fz;
+            }
+        }
+        .progressbar{
+            .fbspan,.numberspan{
+                font-size: 15px;
+            }
+        }
+        .buttongetstarted{
+            font-size: $button-xxxl-fz;
+        }
+    }
+    .maincss6{
+        h1{
+            font-size: $h1-xxxl-medium;
+        }
+        p{
+            font-size: $p-xxxl-fz;
+        }
+        .client{
+            .avatartext{
+                span{
+                    font-size: $p-xxxl-fz;
+                }
+            }
+        }
+        .buttoncss6{
+            font-size: $button-xxxl-fz;
+        }
+    }
+    .maincss7{
+        .text7{
+            h1{
+                font-size: $h1-xxxl-fz;
+            }
+            p{
+                font-size: $p-xxxl-fz;
+            }
+
+        }
+        .text7b{
+            .Trial{
+                font-size: $p-xxxl-fz;
+            }
+            .freeTrial{
+                font-size: $p-xxxl-fz;
+                width: 116%;
+                margin: 0 auto;
+            }
+            .price{
+                .priceB{
+                    font-size: 1.2em;
+                }
+            }
+            p{
+                font-size: $p-xxxl-fz;
+            }
+            .button7{
+               font-size:  $button-xxxl-fz;
+            }
+        }
+  
+      
+        
+    }
+    .maincss8{
+        .text8{
+            h1{
+                font-size:$h1-xxxl-medium;
+            }
+        }
+        .text8a{
+            font-size: $p-xxxl-fz;
+        }
+        .button8{
+            font-size: $button-xxxl-fz;
+        }
+    }
+    .maincss9{
+        .logo2{
+            span{
+                font-size: $p-xxxl-fz;
+            }
+        }
+        .menuFooter{
+            font-size: $p-xxxl-fz;
+        }
+    }
+}

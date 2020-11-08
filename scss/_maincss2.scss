@@ -1,0 +1,67 @@
+.maincss2{
+    .content{
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+        // background-color: red;
+        display: flex;
+        flex-direction: column;
+        .textcontent{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: $yellow;
+                font-size: $h1-medium;
+            }
+            h1{
+                margin-top: 2vh;
+                font-size: $h1-font-size;
+            }
+            p{
+                margin-top: 3vh;
+                font-size: $p-font-size;
+            }
+        }
+        .buttons2{
+            width: 100%;
+            margin-top: 3vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: $button-font-size;
+            .button3,.button4{
+                cursor: pointer;
+                max-width: 311px;
+                width: 70%;
+                height: 57px;
+                border-radius: 85px;
+                background-color: $primary-color;
+                color: white;
+                text-align: center;
+                line-height: 57px;
+                box-sizing: border-box;
+                transition: .3s linear;
+            }
+            .button4{
+                margin-top: 1vh;
+                background-color: white;
+                border: 1px solid $primary-color;
+                color: $primary-color;
+            }
+            .button3:hover{
+                background-color: $white;
+                border: 1px solid $primary-color;
+                color: $primary-color;
+            }
+            .button4:hover{
+               background-color: $primary-color;
+               color: $white;
+            }
+        }
+        
+    }
+    
+}

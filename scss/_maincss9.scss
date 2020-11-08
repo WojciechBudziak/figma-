@@ -1,0 +1,80 @@
+.maincss9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo2{
+        margin-top: 11.4%;
+        margin-left: 15.7%;
+        margin-right: 15.7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // background-color: red;
+        span{
+            font-size: $p-font-size;//poprawic
+            color: $p-color;
+        }
+    }
+    .menuFooter{
+        margin-top: 6vh;
+        text-align: center;
+        width: 18%;
+        font-size: $p-font-size;
+        // background-color: red;
+        ol{
+            color: $secondary-color;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            li{
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+               
+            }
+            li:nth-child(2),li:nth-child(3),li:nth-child(4){
+                margin-top: 2vh;
+            }
+            li:nth-child(1)::before,li:nth-child(2)::before{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: -100%;
+                width: 60%;
+                height: 2px;
+                background-color: $secondary-color;
+                transition: .1s linear;
+            }
+            li:nth-child(3)::before,li:nth-child(4)::before{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 100%;
+                width: 60%;
+                height: 2px;
+                background-color: $secondary-color;
+                transition: .1s linear;
+            }
+            li:hover::before{
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .socials{
+        max-width: 210px;
+        width: 100%;
+        height: 50px;
+        margin-top: 12vh;
+        margin-bottom: 11.75%;
+        // border: solid black 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+}

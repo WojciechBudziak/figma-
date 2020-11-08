@@ -1,0 +1,1688 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+body h1, body h2 {
+  font-weight: 300;
+}
+
+.maincss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(7.62%, rgba(255, 255, 255, 0.22)), color-stop(25.5%, rgba(0, 225, 157, 0.363)), color-stop(70.92%, #FFFFFF));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 157, 0.363) 25.5%, #FFFFFF 70.92%);
+}
+
+.maincss .navbar {
+  margin-top: 3vh;
+  width: 100%;
+  min-height: 107px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.maincss .navbar .logo {
+  max-width: 196px;
+  width: 100%;
+  max-height: 76px;
+  height: 100%;
+  margin-left: 24px;
+}
+
+.maincss .navbar .logo img {
+  padding: 10px;
+  max-width: 186px;
+  width: 100%;
+  max-height: 58px;
+  height: 100%;
+}
+
+.maincss .navbar .menu {
+  display: none;
+}
+
+.maincss .navbar .menuframe {
+  max-width: 196px;
+  width: 100%;
+  min-height: 52px;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.maincss .navbar .menuframe .button {
+  cursor: pointer;
+  max-width: 140px;
+  width: 100%;
+  min-height: 52px;
+  height: 100%;
+  border: solid #00B6F0 1px;
+  color: #00B6F0;
+  border-radius: 85px;
+  text-align: center;
+  line-height: 52px;
+  font-size: 1.2em;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.maincss .navbar .menuframe .button:hover {
+  background-color: #00B6F0;
+  color: white;
+}
+
+.maincss .navbar .menuframe .burger {
+  margin-left: 10%;
+}
+
+.maincss .textarea {
+  margin-top: 5vh;
+  width: 90%;
+  padding: 5%;
+  max-height: 506px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.maincss .textarea .headline {
+  max-width: 80%;
+  text-align: center;
+  padding: 2%;
+  color: #112D57;
+}
+
+.maincss .textarea .headline h1 {
+  font-size: 3.33em;
+  font-weight: 900;
+}
+
+.maincss .textarea .subHeading {
+  margin-top: 20px;
+  max-width: 70%;
+  padding: 2%;
+  text-align: center;
+  color: #5C5C5C;
+}
+
+.maincss .textarea .subHeading p {
+  font-size: 1.38em;
+}
+
+.maincss .textarea .subHeading span {
+  display: none;
+}
+
+.maincss .buttons {
+  max-width: calc(250px + 3%);
+  margin: 5vh auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 1.2em;
+}
+
+.maincss .buttons .button1, .maincss .buttons .button2 {
+  cursor: pointer;
+  max-width: 192px;
+  min-height: 52px;
+  max-height: 52px;
+  width: 100%;
+  border-radius: 85px;
+  background-color: #00B6F0;
+  color: #00B6F0;
+  border: solid 1px #00B6F0;
+  background-color: white;
+  text-align: center;
+  line-height: 52px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.maincss .buttons .button1 {
+  margin-right: 5%;
+  background-color: #00B6F0;
+  color: white;
+}
+
+.maincss .buttons .button1:hover {
+  background-color: white;
+  color: #00B6F0;
+  border: 1px solid #00B6F0;
+}
+
+.maincss .buttons .button2:hover {
+  background-color: #00B6F0;
+  color: white;
+}
+
+.maincss .dashboard {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss .dashboard .dashpic {
+  width: 100%;
+}
+
+.maincss .dashLargePic {
+  display: none;
+}
+
+.maincss2 .content {
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincss2 .content .textcontent {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincss2 .content .textcontent h2 {
+  color: #F3CD03;
+  font-size: 2.75em;
+}
+
+.maincss2 .content .textcontent h1 {
+  margin-top: 2vh;
+  font-size: 3.33em;
+}
+
+.maincss2 .content .textcontent p {
+  margin-top: 3vh;
+  font-size: 1.38em;
+}
+
+.maincss2 .content .buttons2 {
+  width: 100%;
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2em;
+}
+
+.maincss2 .content .buttons2 .button3, .maincss2 .content .buttons2 .button4 {
+  cursor: pointer;
+  max-width: 311px;
+  width: 70%;
+  height: 57px;
+  border-radius: 85px;
+  background-color: #00B6F0;
+  color: white;
+  text-align: center;
+  line-height: 57px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.maincss2 .content .buttons2 .button4 {
+  margin-top: 1vh;
+  background-color: white;
+  border: 1px solid #00B6F0;
+  color: #00B6F0;
+}
+
+.maincss2 .content .buttons2 .button3:hover {
+  background-color: white;
+  border: 1px solid #00B6F0;
+  color: #00B6F0;
+}
+
+.maincss2 .content .buttons2 .button4:hover {
+  background-color: #00B6F0;
+  color: white;
+}
+
+.maincss3 {
+  text-align: center;
+  padding-top: 15.5%;
+  padding-bottom: 15.5%;
+  padding-right: 11.5%;
+  padding-left: 11.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincss3 img {
+  width: 100%;
+}
+
+.maincss3 .imgDesktop {
+  display: none;
+}
+
+.maincss3 .texcontent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.maincss3 .texcontent2 h1 {
+  color: #112D57;
+  padding: 1%;
+  font-size: 2.75em;
+}
+
+.maincss3 .texcontent2 p {
+  color: #5C5C5C;
+  margin-top: 2vh;
+  font-size: 1.38em;
+}
+
+.maincss3 .texcontent2 p span {
+  display: none;
+}
+
+.maincss3 .texcontent2 h4 {
+  cursor: pointer;
+  margin-top: 2vh;
+  color: #00B6F0;
+  font-size: 1.38em;
+}
+
+.maincss3 .texcontent2 h4:hover {
+  color: pink;
+}
+
+.maincss4 {
+  padding-top: 13vh;
+  padding-right: 11.5%;
+  padding-left: 11.5%;
+  padding-bottom: 13vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss4 img {
+  width: 100%;
+}
+
+.maincss4 .imgDesktop2 {
+  display: none;
+}
+
+.maincss4 h1 {
+  margin: 0 auto;
+  max-width: 199px;
+  width: 100%;
+  color: #112D57;
+  font-size: 2.75em;
+}
+
+.maincss4 p {
+  margin: 0 auto;
+  width: 83%;
+  margin-top: 2.5vh;
+  color: #5C5C5C;
+  font-size: 1.38em;
+}
+
+.maincss4 p:nth-of-type(2) {
+  color: #00B6F0;
+}
+
+.maincss5 {
+  padding-top: 11.35%;
+  padding-right: 15.8%;
+  padding-left: 15.8%;
+  padding-bottom: 11.35%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss5 .text5 h1 {
+  color: #112D57;
+  font-size: 3.33em;
+}
+
+.maincss5 .text5 p {
+  margin-top: 2vh;
+  color: #5C5C5C;
+  font-size: 1.38em;
+}
+
+.maincss5 .progressbar {
+  max-width: 315px;
+  width: 100%;
+  height: 15px;
+  margin-top: 6vh;
+  position: relative;
+  background-color: #F3F5F8;
+  border-radius: 85px;
+}
+
+.maincss5 .progressbar .rectangle_progressbar {
+  width: 72%;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00B6F0;
+  border-radius: 85px;
+}
+
+.maincss5 .progressbar .fbspan {
+  position: absolute;
+  top: 150%;
+  left: 0;
+}
+
+.maincss5 .progressbar .numberspan {
+  position: absolute;
+  top: 150%;
+  right: 0;
+}
+
+.maincss5 .buttongetstarted {
+  margin-top: 9vh;
+  border-radius: 85px;
+  height: 52px;
+  width: 82%;
+  background-color: #00B6F0;
+  color: white;
+  line-height: 52px;
+  font-size: 1.2em;
+}
+
+.maincss6 {
+  padding-top: 13.74%;
+  padding-left: 10.27%;
+  padding-right: 10.27%;
+  padding-bottom: 6.8%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincss6 h1 {
+  color: #112D57;
+  font-size: 2.75em;
+}
+
+.maincss6 img {
+  margin-top: 6vh;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+.maincss6 p {
+  margin-top: 6vh;
+  margin: 1%;
+  color: #5C5C5C;
+  font-size: 1.38em;
+}
+
+.maincss6 p span {
+  display: none;
+}
+
+.maincss6 .client {
+  margin-top: 6vh;
+  max-width: 190px;
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.maincss6 .client img {
+  padding: 0;
+}
+
+.maincss6 .client .avatartext {
+  max-width: 127px;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maincss6 .client .avatartext span {
+  padding-left: 10%;
+  padding-right: 1%;
+  text-align: left;
+  font-size: 1em;
+}
+
+.maincss6 .client .avatartext span:nth-of-type(1) {
+  color: #112D57;
+}
+
+.maincss6 .client .avatartext span:nth-of-type(2) {
+  color: #5C5C5C;
+}
+
+.maincss6 .buttoncss6 {
+  width: 78%;
+  height: 52px;
+  background-color: #00B6F0;
+  font-size: 1.2em;
+  border-radius: 85px;
+  margin: 0 auto;
+  margin-top: 6vh;
+  color: white;
+  line-height: 52px;
+}
+
+.maincss7 {
+  padding-top: 12.37%;
+  padding-bottom: 12.37%;
+  padding-left: 13.5%;
+  padding-right: 13.5%;
+  background-color: #182333;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.maincss7 .text7 {
+  margin: 2%;
+}
+
+.maincss7 .text7 h1 {
+  font-size: 3.33em;
+}
+
+.maincss7 .text7 p {
+  margin-top: 2.5vh;
+  font-size: 1.38em;
+}
+
+.maincss7 .text7b {
+  width: 60%;
+  margin: 6vh auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss7 .text7b .Trial {
+  margin-top: 2vh;
+  width: 80%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 1.38em;
+}
+
+.maincss7 .text7b .Trial .freeTrial {
+  margin-top: 0.5vh;
+}
+
+.maincss7 .text7b .price {
+  height: 78px;
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss7 .text7b .price .priceA {
+  width: 100%;
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #F3CD03;
+}
+
+.maincss7 .text7b .price .priceA span {
+  font-size: 50px;
+}
+
+.maincss7 .text7b .price .priceB {
+  width: 100%;
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.maincss7 .text7b .price .priceB span {
+  text-align: left;
+  font-size: 1.38em;
+}
+
+.maincss7 .text7b p {
+  margin-top: 3vh;
+  font-size: 1.38em;
+}
+
+.maincss7 .text7b .button7 {
+  max-width: 196px;
+  width: 100%;
+  height: 52px;
+  border-radius: 85px;
+  margin-top: 3vh;
+  line-height: 52px;
+  background-color: #00B6F0;
+  font-size: 1.2em;
+}
+
+.maincss8 {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(7.62%, rgba(255, 255, 255, 0.22)), color-stop(25.5%, rgba(0, 225, 198, 0.06)), color-stop(70.92%, #FFFFFF));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+}
+
+.maincss8 .container8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss8 .container8 .container8a {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 54%;
+}
+
+.maincss8 .container8 .container8a h1 {
+  text-align: center;
+  margin: 2%;
+  font-weight: 300;
+  font-size: 2.75em;
+}
+
+.maincss8 .container8 .container8b {
+  margin-top: 5%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss8 .container8 .container8b p {
+  font-size: 1.38em;
+}
+
+.maincss8 .container8 .container8b p:nth-child(1) {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.maincss8 .container8 .container8b p:nth-child(2) {
+  text-align: center;
+  width: 80%;
+  margin: 3vh auto;
+}
+
+.maincss8 .container8 .container8b .button8 {
+  text-align: center;
+  max-width: 176px;
+  width: 100%;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 85px;
+  background-color: #00B6F0;
+  color: white;
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+}
+
+.maincss9 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss9 .logo2 {
+  margin-top: 11.4%;
+  margin-left: 15.7%;
+  margin-right: 15.7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincss9 .logo2 span {
+  font-size: 1.38em;
+  color: #5C5C5C;
+}
+
+.maincss9 .menuFooter {
+  margin-top: 6vh;
+  text-align: center;
+  width: 18%;
+  font-size: 1.38em;
+}
+
+.maincss9 .menuFooter ol {
+  color: #112D57;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.maincss9 .menuFooter ol li {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.maincss9 .menuFooter ol li:nth-child(2), .maincss9 .menuFooter ol li:nth-child(3), .maincss9 .menuFooter ol li:nth-child(4) {
+  margin-top: 2vh;
+}
+
+.maincss9 .menuFooter ol li:nth-child(1)::before, .maincss9 .menuFooter ol li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 60%;
+  height: 2px;
+  background-color: #112D57;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.maincss9 .menuFooter ol li:nth-child(3)::before, .maincss9 .menuFooter ol li:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  width: 60%;
+  height: 2px;
+  background-color: #112D57;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.maincss9 .menuFooter ol li:hover::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.maincss9 .socials {
+  max-width: 210px;
+  width: 100%;
+  height: 50px;
+  margin-top: 12vh;
+  margin-bottom: 11.75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 370px) {
+  .maincss .navbar .menuframe .button {
+    font-size: 1.4em;
+  }
+  .maincss .textarea .headline h1 {
+    font-size: 3.7em;
+  }
+  .maincss .textarea .subHeading p {
+    font-size: 1.56em;
+  }
+  .maincss .buttons {
+    max-width: calc(300px + 3%);
+    font-size: 1.4em;
+  }
+  .maincss2 .content .textcontent h1 {
+    font-size: 3.7em;
+  }
+  .maincss2 .content .textcontent h2 {
+    font-size: 3em;
+  }
+  .maincss2 .content .textcontent p {
+    font-size: 1.56em;
+  }
+  .maincss2 .content .buttons2 {
+    font-size: 1.4em;
+  }
+  .maincss3 .texcontent2 h1 {
+    font-size: 3em;
+  }
+  .maincss3 .texcontent2 p {
+    font-size: 1.56em;
+  }
+  .maincss3 .texcontent2 h4 {
+    font-size: 1.56em;
+  }
+  .maincss4 h1 {
+    font-size: 3em;
+  }
+  .maincss4 p {
+    font-size: 1.56em;
+  }
+  .maincss4 p:nth-of-type(2) {
+    font-size: 1.56em;
+  }
+  .maincss5 .text5 h1 {
+    font-size: 3.7em;
+  }
+  .maincss5 .text5 p {
+    font-size: 1.56em;
+  }
+  .maincss5 .progressbar .fbspan, .maincss5 .progressbar .numberspan {
+    font-size: 15px;
+  }
+  .maincss5 .buttongetstarted {
+    font-size: 1.4em;
+  }
+  .maincss6 h1 {
+    font-size: 3em;
+  }
+  .maincss6 p {
+    font-size: 1.56em;
+  }
+  .maincss6 .client .avatartext span {
+    font-size: 1.56em;
+  }
+  .maincss6 .buttoncss6 {
+    font-size: 1.4em;
+  }
+  .maincss7 .text7 h1 {
+    font-size: 3.7em;
+  }
+  .maincss7 .text7 p {
+    font-size: 1.56em;
+  }
+  .maincss7 .text7b .Trial {
+    font-size: 1.56em;
+  }
+  .maincss7 .text7b .freeTrial {
+    font-size: 1.56em;
+    width: 116%;
+    margin: 0 auto;
+  }
+  .maincss7 .text7b .price .priceB {
+    font-size: 1.2em;
+  }
+  .maincss7 .text7b p {
+    font-size: 1.56em;
+  }
+  .maincss7 .text7b .button7 {
+    font-size: 1.4em;
+  }
+  .maincss8 .text8 h1 {
+    font-size: 3em;
+  }
+  .maincss8 .text8a {
+    font-size: 1.56em;
+  }
+  .maincss8 .button8 {
+    font-size: 1.4em;
+  }
+  .maincss9 .logo2 span {
+    font-size: 1.56em;
+  }
+  .maincss9 .menuFooter {
+    font-size: 1.56em;
+  }
+}
+
+@media (min-width: 992px) {
+  .maincss2 .content {
+    padding-top: 10vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .maincss .navbar .logo {
+    margin-left: 81px;
+  }
+  .maincss .navbar .menu {
+    display: block;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: 40px;
+    min-width: 407px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .maincss .navbar .menu ol {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .maincss .navbar .menu ol li {
+    font-size: 18px;
+    padding: 1%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .maincss .navbar .menu ol li:nth-child(1)::before, .maincss .navbar .menu ol li:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 60%;
+    height: 2px;
+    background-color: #112D57;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+  }
+  .maincss .navbar .menu ol li:nth-child(3)::before, .maincss .navbar .menu ol li:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 60%;
+    height: 2px;
+    background-color: #112D57;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+  }
+  .maincss .navbar .menu ol li:hover::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .maincss .navbar .menu ol li:nth-child(2), .maincss .navbar .menu ol li:nth-child(3), .maincss .navbar .menu ol li:nth-child(4) {
+    margin-left: 51px;
+  }
+  .maincss .navbar .menuframe {
+    max-width: 140px;
+    min-height: 52px;
+    margin-right: 90px;
+  }
+  .maincss .navbar .menuframe .button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .maincss .navbar .menuframe .burger {
+    display: none;
+  }
+  .maincss .textarea .headline {
+    max-width: 40%;
+    margin-bottom: 27px;
+    padding: 10px;
+  }
+  .maincss .textarea .headline h1 {
+    font-size: 71px;
+  }
+  .maincss .textarea .subHeading {
+    padding: .5%;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .maincss .textarea .subHeading p {
+    font-size: 19px;
+  }
+  .maincss .textarea .subHeading span {
+    display: block;
+  }
+  .maincss .buttons {
+    min-width: 411px;
+    height: 52px;
+    padding: 0;
+    font-size: 18px;
+  }
+  .maincss .dashboard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .maincss .dashboard .dashLargePic {
+    display: block;
+    width: 1120px;
+    height: 803px;
+  }
+  .maincss .dashboard .dashpic {
+    display: none;
+  }
+  .maincss2 .content {
+    padding-top: 62px;
+  }
+  .maincss2 .content .textcontent h2 {
+    font-size: 36px;
+  }
+  .maincss2 .content .textcontent h1 {
+    padding: 10px;
+    font-size: 56px;
+  }
+  .maincss2 .content .textcontent p {
+    font-size: 19px;
+    margin: 7px auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 24px;
+  }
+  .maincss2 .content .buttons2 {
+    margin: 59px auto;
+    width: 445px;
+    height: 52px;
+    font-size: 18px;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .maincss2 .content .buttons2 .button3 {
+    width: 187px;
+    height: 52px;
+  }
+  .maincss2 .content .buttons2 .button4 {
+    width: 245px;
+    height: 52px;
+    margin-top: 0vh;
+  }
+  .maincss3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 100px;
+    padding-left: 118px;
+    padding-right: 118px;
+    padding-bottom: 100px;
+  }
+  .maincss3 .container3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1045px;
+    height: 382px;
+  }
+  .maincss3 .container3 img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 516px;
+    height: 351px;
+  }
+  .maincss3 .container3 .imgDesktop {
+    display: block;
+  }
+  .maincss3 .container3 .imgMobile {
+    display: none;
+  }
+  .maincss3 .container3 .texcontent2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b {
+    width: 459px;
+    height: 288px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b h1, .maincss3 .container3 .texcontent2 .textcontent2b h4, .maincss3 .container3 .texcontent2 .textcontent2b p {
+    text-align: left;
+    padding: 10px;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b h4 {
+    font-size: 19px;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b h1 {
+    font-size: 36px;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b p {
+    line-height: 4vh;
+    font-size: 24px;
+    font-size: 19px;
+  }
+  .maincss3 .container3 .texcontent2 .textcontent2b span {
+    display: block;
+  }
+  .maincss4 {
+    padding-top: 100px;
+    padding-right: 158px;
+    padding-left: 158px;
+    padding-bottom: 100px;
+  }
+  .maincss4 .container4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 966px;
+    height: 382px;
+  }
+  .maincss4 .container4 img {
+    margin-left: 10px;
+    width: 516px;
+    height: 351px;
+  }
+  .maincss4 .container4 .imgDesktop2 {
+    display: block;
+  }
+  .maincss4 .container4 .imgMobile2 {
+    display: none;
+  }
+  .maincss4 .container4 .text4 {
+    text-align: left;
+    padding: 0;
+    margin-left: 60px;
+    width: 380px;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .maincss4 .container4 .text4 h1, .maincss4 .container4 .text4 p {
+    margin: 0;
+    text-align: left;
+  }
+  .maincss4 .container4 .text4 h1 {
+    font-size: 36px;
+  }
+  .maincss4 .container4 .text4 p {
+    font-size: 19px;
+  }
+  .maincss5 .progressbar {
+    min-width: 757px;
+    height: 15px;
+  }
+  .maincss5 .buttongetstarted {
+    width: 266px;
+    height: 52px;
+  }
+  .maincss5 h1 {
+    font-size: 36px;
+  }
+  .maincss5 p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 19px;
+  }
+  .maincss5 .buttongetstarted {
+    font-size: 18px;
+  }
+  .maincss6 {
+    padding-top: 169px;
+    padding-left: 366px;
+    padding-right: 366px;
+    padding-bottom: 108px;
+  }
+  .maincss6 h1 {
+    padding: 10px;
+    font-size: 36px;
+  }
+  .maincss6 img {
+    margin-top: 50px;
+  }
+  .maincss6 p {
+    margin: 50px auto;
+    font-size: 19px;
+    padding: 10px;
+    width: 530px;
+    height: 90px;
+    line-height: 30px;
+  }
+  .maincss6 p span {
+    display: block;
+  }
+  .maincss6 .client {
+    margin-top: 50px;
+  }
+  .maincss6 .client img {
+    margin: 0;
+  }
+  .maincss6 .buttoncss6 {
+    width: 255px;
+    height: 52px;
+    font-size: 18px;
+  }
+  .maincss7 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .maincss7 .container7 {
+    width: 881px;
+    height: 296px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .maincss7 .container7 .text7 {
+    margin: 0;
+    width: 437px;
+    height: 201px;
+  }
+  .maincss7 .container7 .text7 h1, .maincss7 .container7 .text7 p {
+    text-align: left;
+  }
+  .maincss7 .container7 .text7 h1 {
+    font-size: 36px;
+  }
+  .maincss7 .container7 .text7 p {
+    font-size: 19px;
+  }
+  .maincss7 .container7 .text7b {
+    margin: 0;
+    width: 277px;
+    height: 296px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .maincss7 .container7 .text7b .Trial {
+    margin: 0;
+    width: 165px;
+    height: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-transform: none;
+    padding: 10px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .maincss7 .container7 .text7b .price {
+    width: 233px;
+    height: 96px;
+    margin: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .maincss7 .container7 .text7b .price .priceA {
+    width: 84px;
+    height: 78px;
+  }
+  .maincss7 .container7 .text7b .price .priceA span {
+    font-size: 72px;
+    font-weight: 900;
+  }
+  .maincss7 .container7 .text7b .price .priceB {
+    width: 149px;
+    height: 96px;
+  }
+  .maincss7 .container7 .text7b .price .priceB span {
+    font-size: 19px;
+    padding: 10px;
+  }
+  .maincss7 .container7 .text7b .container7b {
+    margin-top: 0;
+    width: 277px;
+    height: 100px;
+    text-align: left;
+  }
+  .maincss7 .container7 .text7b .container7b p {
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
+  .maincss7 .container7 .text7b .button7 {
+    width: 196px;
+    height: 52px;
+    margin-top: 0;
+    font-size: 18px;
+  }
+  .maincss8 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 147px;
+    padding-right: 147px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .maincss8 .container8 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 987px;
+    height: 343px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .maincss8 .container8 .container8a {
+    margin: 0;
+    width: 494px;
+    height: 156px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .maincss8 .container8 .container8a h1 {
+    font-size: 36px;
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+  .maincss8 .container8 .container8b {
+    margin: 0;
+    width: 446px;
+    height: 343px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .maincss8 .container8 .container8b .textcontent8 {
+    width: 446px;
+    height: 231px;
+    margin-top: 20px;
+  }
+  .maincss8 .container8 .container8b .textcontent8 p {
+    font-size: 19px;
+    margin: 10px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .maincss8 .container8 .container8b .textcontent8 p:nth-child(1) {
+    font-size: 19px;
+  }
+  .maincss8 .container8 .container8b .textcontent8 p:nth-child(2) {
+    width: 90%;
+    width: 426px;
+    margin-top: 30px;
+    font-size: 19px;
+  }
+  .maincss8 .container8 .container8b .button8 {
+    margin-top: 20px;
+    min-width: 192px;
+    height: 52px;
+    font-size: 18px;
+  }
+  .maincss9 {
+    width: 100%;
+    height: 207px;
+    padding: 0;
+    margin: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .maincss9 .logo2 {
+    width: 266px;
+    height: 86px;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .maincss9 .logo2 img {
+    width: 206px;
+    height: 58px;
+  }
+  .maincss9 .logo2 span {
+    margin-left: 10px;
+  }
+  .maincss9 .menuFooter {
+    margin: 0;
+    padding: 0;
+    width: 407px;
+    height: 40px;
+  }
+  .maincss9 .menuFooter ol {
+    margin: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .maincss9 .menuFooter ol li {
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .maincss9 .menuFooter ol li:nth-child(2), .maincss9 .menuFooter ol li:nth-child(3), .maincss9 .menuFooter ol li:nth-child(4) {
+    margin-top: 0vh;
+  }
+  .maincss9 .menuFooter ol li:nth-child(4) {
+    margin-bottom: 0vh;
+  }
+  .maincss9 .menuFooter ol li:nth-child(1) {
+    margin-top: 0vh;
+  }
+  .maincss9 .socials {
+    margin: 0;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
